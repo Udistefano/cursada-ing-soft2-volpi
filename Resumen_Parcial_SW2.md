@@ -578,6 +578,7 @@ Carga de trabajo: Consultas masivas de lectura, agregaciones y escaneos de grand
 
 <img width="1094" height="616" alt="image" src="https://github.com/user-attachments/assets/860b98a3-1784-43d3-b0f1-5e3caf82fb61" />
 
+\
 
 **2) Explicar el concepto de "Knowledge Discovery in Database" que forma parte del concepto de Datamining.**
 
@@ -592,7 +593,7 @@ Selección y Transformación: Reducción de dimensionalidad y preparación de lo
 Minería de Datos (Data Mining): Aplicación de algoritmos computacionales y estadísticos (clasificación, clustering, reglas de asociación, árboles de decisión) para extraer patrones o modelos ocultos. 
 
 Interpretación y Evaluación: Análisis de los patrones obtenidos para transformarlos en conocimiento de negocio accionable, evaluando su validez y utilidad. 
-
+\
 
 **3) Explicar el concepto y funcionamiento de los cubos OLAP.**
 
@@ -603,7 +604,7 @@ A diferencia de las bases de datos relacionales tradicionales donde las consulta
 
 <img width="914" height="610" alt="image" src="https://github.com/user-attachments/assets/d22bc6d1-f6fb-456d-9e72-bc1d00a93ce2" />
 ![https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
-
+\
 **4) Explicar los conceptos relacionados a los sistemas de información GIS.**
 
 Un GIS (Sistema de Información Geográfica) es un conjunto integrado de hardware, software y datos diseñado para capturar, almacenar, manipular, analizar y desplegar información geográficamente referenciada. Sus conceptos clave incluyen: 
