@@ -599,7 +599,7 @@ Son bases de datos multidimensionales almacenadas físicamente como vectores mul
 
 A diferencia de las bases de datos relacionales tradicionales donde las consultas complejas requieren unir múltiples tablas en tiempo de ejecución, el cubo OLAP precalcula y preagrega las intersecciones de las dimensiones de antemano (almacenando los resultados en celdas del hipercubo).
 
-[https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
+![https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
 
 **4) Explicar los conceptos relacionados a los sistemas de información GIS.**
 GIS captura, almacena, gestiona, analiza y visualiza información vinculada a ubicaciones geográficas. Usa datos georreferenciados y capas. Se integra con ERP/CRM/BI para dashboards geoespaciales. Evolucionó de herramientas stand-alone a plataformas cloud, APIs geoespaciales, microservicios y analítica avanzada.
