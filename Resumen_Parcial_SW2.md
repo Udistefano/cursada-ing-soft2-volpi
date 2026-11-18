@@ -576,6 +576,8 @@ Modelado: Estructuras desnormalizadas orientadas a dimensiones (esquemas en estr
 
 Carga de trabajo: Consultas masivas de lectura, agregaciones y escaneos de grandes volúmenes de datos, alimentados periódicamente mediante procesos ETL (Extracción, Transformación y Carga). 
 
+<img width="1094" height="616" alt="image" src="https://github.com/user-attachments/assets/860b98a3-1784-43d3-b0f1-5e3caf82fb61" />
+
 
 **2) Explicar el concepto de "Knowledge Discovery in Database" que forma parte del concepto de Datamining.**
 
@@ -603,46 +605,163 @@ A diferencia de las bases de datos relacionales tradicionales donde las consulta
 ![https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
 
 **4) Explicar los conceptos relacionados a los sistemas de información GIS.**
-GIS captura, almacena, gestiona, analiza y visualiza información vinculada a ubicaciones geográficas. Usa datos georreferenciados y capas. Se integra con ERP/CRM/BI para dashboards geoespaciales. Evolucionó de herramientas stand-alone a plataformas cloud, APIs geoespaciales, microservicios y analítica avanzada.
+
+Un GIS (Sistema de Información Geográfica) es un conjunto integrado de hardware, software y datos diseñado para capturar, almacenar, manipular, analizar y desplegar información geográficamente referenciada. Sus conceptos clave incluyen: 
+
+Dato Espacial (Georreferenciación): Información asociada a una posición física en la superficie terrestre mediante coordenadas (latitud/longitud o sistemas proyectados como UTM). 
+
+Modelos de Datos Geográficos: 
+
+Modelo Vectorial: Representa el mundo real mediante elementos geométricos discretos: puntos (ej. torres de alta tensión), líneas (ej. rutas, ríos) y polígonos (ej. límites de parcelas, provincias). 
+
+Modelo Raster: Representa el espacio mediante una malla o matriz regular de celdas (píxeles), donde cada celda almacena un valor numérico (ej. imágenes satelitales, modelos digitales de elevación). 
+
+Capas de Información (Layers): Superposición lógica de diferentes temas geográficos (hidrografía, red vial, densidad poblacional, catastros) sobre un sistema de coordenadas común para efectuar análisis espaciales de proximidad, intersección o ruteo óptimo. 
 
 **5) Explicar los 4 estadios de la Curva de Evolución Tecnológica.**
-Inicio, Explosión, Madurez (más la noción de tecnología embrionaria en investigación preliminar). En términos de la curva S: inicio (rendimientos escasos), explosión (rendimiento alto) y madurez (límite cercano).
+
+Estadío de Emergencia / Introducción (I+D): La tecnología surge de la investigación inicial. Presenta altísima incertidumbre, costos elevados y un rendimiento bajo, limitado a laboratorios y prototipos conceptuales. 
+
+Estadío de Crecimiento Acelerado (Auge): La tecnología demuestra su viabilidad técnica y comercial. Se estandarizan sus componentes, aumentan drásticamente las inversiones, su rendimiento crece de manera exponencial y su adopción se masifica en la industria. 
+
+Estadío de Madurez / Meseta (Slat): La tecnología alcanza los límites físicos o conceptuales de su arquitectura actual. El rendimiento se estabiliza, la competencia se traslada a la reducción de costos y optimización marginal, y el mercado se satura. 
+
+Estadío de Obsolescencia / Declive: La tecnología es superada por una innovación disruptiva (una nueva Curva S). Su rendimiento relativo se vuelve insuficiente frente a las nuevas demandas del mercado, iniciándose su reemplazo sistemático. 
+
+
 
 **6) Explicar los modelos de Desarrollo Incremental y Fundamental del I+D.**
-- **Incremental**: I+D con menor inversión, desarrollo rápido, mayor competencia y accesibilidad.
-- **Fundamental**: I+D con continuidad y liderazgo, pero con riesgos de inversión y lentitud.
+
+La I+D (Investigación y Desarrollo) es el conjunto de actividades creativas y sistemáticas que realiza una empresa o institución para aumentar el conocimiento y utilizarlo para crear nuevos productos, procesos o servicios, o para mejorar los que ya existen.
+
+1. Modelo de Desarrollo Incremental
+
+Consiste en realizar mejoras pequeñas, continuas y progresivas sobre un producto, servicio o proceso que ya existe en el mercado. No cambia la esencia del producto, sino que lo optimiza.
+
+• Objetivo: Aumentar la eficiencia, reducir costos, corregir fallos o añadir funciones que los clientes actuales demandan.
+
+• Nivel de riesgo e inversión: Bajo.
+
+• Tiempo de retorno: Corto plazo.
+
+• Ejemplos: El lanzamiento anual de un teléfono inteligente con mejor cámara y batería, una actualización de software que mejora la velocidad, o una fórmula de detergente más concentrada.
+
+2. Modelo de Desarrollo Fundamental (o Radical)
+
+Consiste en la creación de tecnologías, productos o modelos de negocio completamente nuevos que rompen con lo establecido y pueden llegar a crear mercados inexistentes o reemplazar por completo a los actuales.
+
+• Objetivo: Generar un avance disruptivo basado en nuevos descubrimientos científicos o tecnológicos.
+
+• Nivel de riesgo e inversión: Muy alto. Requiere mucha investigación básica, capital intensivo y existe alta incertidumbre sobre su éxito técnico y comercial.
+
+• Tiempo de retorno: Largo plazo.
+
+• Ejemplos: La invención de la inteligencia artificial generativa, el desarrollo de las vacunas de ARN mensajero, los vehículos autónomos o la transición de la fotografía analógica a la digital.
+
 
 **7) Explicar el concepto de la WACC y como influye en el VNA de un flujo de fondo de un proyecto de inversión.**
-WACC es la tasa promedio ponderada del costo de capital: `WACC = Kd(1-Tc)(D/V) + Ks(S/V)`. Se usa como tasa de descuento en el flujo de fondos del Business Case para calcular el VAN; si el VAN > 0, el proyecto es viable. Refleja el costo de financiamiento (deuda + capital propio) después de impuestos.
+
+WACC es la tasa promedio ponderada del costo de capital. Representa la tasa de rendimiento mínima que una empresa debe generar para satisfacer a todos sus proveedores de fondos. Se usa como tasa de descuento en el flujo de fondos del Business Case para calcular el VAN;
+
+VNA: valor neto actual.  si el VAN > 0, el proyecto es viable. Refleja el costo de financiamiento (deuda + capital propio) después de impuestos.
+
+<img width="467" height="95" alt="image" src="https://github.com/user-attachments/assets/0c81d3ad-6d26-4717-86ad-6b7a21fa20b2" />
+
 
 **8) Explicar los modelos de procesos en "Cascada" y en "V".**
 Ver pregunta 4 del Bloque A (mismo contenido).
 
 **9) Explicar los modelos de procesos en "Evolutivo" y en "Espiral".**
-- **Evolutivo**: acepta cambios y plazos ajustados; útil cuando los requerimientos no están bien definidos; usa prototipos para refinar.
-- **Espiral (Boehm)**: modelo evolutivo que acopla prototipos con aspectos controlados del cascada; desarrollo rápido de versiones cada vez más completas; iteraciones con entregas incrementales.
+
+- **Evolutivo**: Modelo Evolutivo: Es un modelo iterativo que reconoce que los requerimientos del software cambian a lo largo del tiempo y que rara vez se cuenta con una especificación inicial completa y cerrada. Permite desarrollar versiones cada vez más completas (incrementos) mediante ciclos iterativos. 
+  
+- **Espiral (Boehm)**: Es un modelo de procesos orientado al riesgo, propuesto por Barry Boehm, que combina la naturaleza iterativa del prototipado con los aspectos controlados y sistemáticos del modelo en cascada. El desarrollo se representa como una espiral donde cada bucle o iteración representa una fase del proyecto, estructurada en cuatro sectores principales: 
+
+Determinación de objetivos, alternativas y restricciones. 
+
+Análisis de riesgos (identificación y evaluación de incertidumbres tecnológicas o de negocio). 
+
+Desarrollo y validación (construcción del incremento del producto mediante ingeniería). 
+
+Planificación de la siguiente fase. 
+
+
 
 **10) Citar los principios básicos en el Diseño de SW moderno.**
-Entender alcance; involucrar participantes; iteratividad; estimar con base en lo que se sabe; considerar riesgos; ser realista; granularidad; asegurar calidad; manejar cambio; dar seguimiento. (Además de los de construcción: elaborar software no modelos, viajar ligero, modelo más sencillo, susceptibles al cambio, propósito explícito, adaptar modelos, rendimientos decrecientes, no dogmático, confiar en instinto, retroalimentación.)
+
+Los principios fundamentales que guían un diseño de software robusto, mantenible y escalable son: 
+
+*Modularidad*: Descomponer el sistema en partes discretas (módulos) con alta cohesión interna y bajo acoplamiento externo. 
+
+*Abstracción y Ocultamiento de Información*: Permitir trabajar con conceptos complejos ocultando los detalles internos de implementación mediante interfaces claras. 
+
+*Separación de Intereses (Separation of Concerns)*: Dividir un programa en secciones distintas donde cada una aborda un concepto o área de negocio separada. 
+
+*Independencia Funcional*: Maximizar la cohesión de cada módulo y minimizar las interdependencias entre ellos. 
+
+*Reutilización*: Diseñar componentes orientados a ser reutilizados en diferentes contextos o sistemas, reduciendo redundancias. 
+
+*Simplicidad*: Evitar la sobrediseño; mantener la arquitectura y el código tan simples como sea funcionalmente posible. 
+
 **11) Citar los objetivos básicos que rigen a las "Descripciones Arquitectónicas".**
-Establecer un marco conceptual con vocabulario; proporcionar lineamientos para representar una DA; estimular mejores prácticas del diseño arquitectónico.
+
+Una descripción arquitectónica (AD) es una representación estructurada de un sistema de software que cumple con los siguientes objetivos básicos: 
+
+Facilitar la comprensión de la estructura general del sistema y de cómo interactúan sus componentes de alto nivel. 
+
+Servir como medio de comunicación efectivo entre todos los interesados (stakeholders) 
+
+Permitir la evaluación y análisis temprano de las cualidades del sistema (escalabilidad, rendimiento, seguridad, modificabilidad)
+
+Guiar la construcción y el despliegue del software.
 
 **12) Citar al menos 5 géneros arquitectónicos dentro del marco de las Descripciones Arquitectónicas.**
-Comerciales/no lucrativos, comunicaciones, financieros, juegos, gobierno, industrial, médicos, militares, científicos, transporte, utilidades, IA, etc. (cualquiera de la lista del resumen).
+
+
+Arquitectura por Capas (Layers): Organización jerárquica en bandas horizontales (Presentación, Negocio, Persistencia). 
+
+Arquitectura Orientada a Servicios (SOA) / Microservicios: Sistemas descompuestos en servicios independientes que se comunican mediante redes y protocolos estándar. 
+
+Arquitectura Basada en Eventos (Event-Driven): Estructura basada en la producción, detección y consumo asíncrono de eventos a través de brokers o colas de mensajes. 
+
+Arquitectura de Tuberías y Filtros (Pipes and Filters): Componentes independientes (filtros) que transforman flujos de datos recibidos a través de canales secuenciales (tuberías). 
+
+Arquitectura Cliente-Servidor: Separación entre nodos que proveen recursos o servicios (servidores) y aquellos que los solicitan (clientes). 
+
 
 **13) Explicar el Diseño basado en Patrones vs. el Diseño Basado en Estructuras.**
-- **Patrones**: describen problemas, contexto, sistema de fuerzas y solución reutilizable; más abstractos; se estudian y aplican.
-- **Estructuras**: marco donde residen los patrones; menos abstractas; incrustadas en código y ejecutables directamente; mayores que los patrones; contienen varios patrones.
+
+- **Diseño Basado en Estructuras**: Se enfoca en organizar los datos y los procedimientos lógicos del sistema utilizando jerarquías tradicionales (como descomposición modular funcional, árboles de llamadas o diagramas entidad-relación). Busca definir la arquitectura desde un enfoque estructural rígido descendente (top-down).
+- 
+- **Diseño Basado en Patroness**: Se fundamenta en la reutilización de soluciones comprobadas y estandarizadas (Design Patterns, patrones arquitectónicos, patrones de webapps) para resolver problemas recurrentes en el diseño de software. En lugar de diseñar desde cero, el ingeniero identifica el contexto del problema y aplica soluciones abstractas probadas (ej. Singleton, MVC, Factory, Observer), acelerando el desarrollo y mejorando la calidad estructural y la legibilidad del sistema. 
+
 
 **14) Citar los principios fundamentales que rigen el diseño de WEBApps.**
-Consistencia (navegación, colores, organización visual); simplicidad; retroalimentación inmediata; minimizar sobrecarga cognitiva; arquitectura en capas; desacoplamiento; usabilidad y accesibilidad.
+
+Simplicidad: Minimizar la sobrecarga visual y cognitiva del usuario, priorizando la claridad del contenido y la navegación intuitiva. 
+
+Consistencia: Mantener patrones uniformes en la interfaz, tipografías, flujos de navegación y respuestas en todo el sitio o aplicación. 
+
+Movilidad y Adaptabilidad (Responsive Design): Asegurar que la WebApp se adapte fluidamente a diferentes tamaños de pantalla, resoluciones y dispositivos (móviles, tablets, escritorios). 
+
+Robustez y Seguridad : Proteger la aplicación frente a vulnerabilidades web comunes (como inyecciones, ataques XSS, validaciones de formularios robustas) y garantizar alta disponibilidad. 
+
+Identidad y Estética (Identity): Reflejar fielmente la identidad visual y la propuesta de valor de la organización o producto a través del diseño. 
+
+
 
 **15) Explicar las "Dimensiones de Calidad" en el marco de los procesos de Calidad asociados al SW.**
-Las 8 dimensiones de Garvin: desempeño, características, confiabilidad, conformidad, durabilidad, servicio, estética y percepción. Complementadas por ISO 9126 (funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad). La calidad tiene costo (prevención, evaluación, falla).
+
+Las 8 dimensiones de Garvin:
+
+desempeño, características, confiabilidad, conformidad, durabilidad, servicio, estética y percepción. Complementadas por ISO 9126 (funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad). La calidad tiene costo (prevención, evaluación, falla).
 
 **16) Explicar los conceptos de Prueba de Unidad y Pruebas de Integración en el marco de los procesos de Prueba a los que se somete los desarrollos de SW.**
-- **Prueba de unidad**: enfoca en cada componente individual (interfaz, datos locales, rutas independientes, condiciones de frontera, manejo de errores); usa controladores y representantes (stubs).
-- **Prueba de integración**: ensambla componentes para formar el sistema completo; descendente (primero en profundidad/anchura) o ascendente (grupos de componentes); busca errores de interfaz.
+
+- **Pruebas de Unidad (Unit Testing)**: enfoca en cada componente individual (interfaz, datos locales, rutas independientes, condiciones de frontera, manejo de errores); usa controladores y representantes (stubs).
+- **Prueba de integración**: Se realizan una vez superadas las pruebas unitarias. Su objetivo es verificar la correcta interacción y comunicación entre múltiples componentes o módulos integrados. Buscan detectar defectos derivados de interfaces mal acopladas
+  
+
 
 ---
 
