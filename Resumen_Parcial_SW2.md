@@ -1,4 +1,4 @@
-<img width="914" height="610" alt="image" src="https://github.com/user-attachments/assets/d22bc6d1-f6fb-456d-9e72-bc1d00a93ce2" /># Resumen para Parcial — Ingeniería de Software 2
+# Resumen para Parcial — Ingeniería de Software 2
 
 > Material de estudio consolidado a partir de las clases (PDFs SW2 #1–#9, SW7, Ing. SW2 ppt5).
 
@@ -599,6 +599,7 @@ Son bases de datos multidimensionales almacenadas físicamente como vectores mul
 
 A diferencia de las bases de datos relacionales tradicionales donde las consultas complejas requieren unir múltiples tablas en tiempo de ejecución, el cubo OLAP precalcula y preagrega las intersecciones de las dimensiones de antemano (almacenando los resultados en celdas del hipercubo).
 
+<img width="914" height="610" alt="image" src="https://github.com/user-attachments/assets/d22bc6d1-f6fb-456d-9e72-bc1d00a93ce2" />
 ![https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
 
 **4) Explicar los conceptos relacionados a los sistemas de información GIS.**
