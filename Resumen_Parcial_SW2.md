@@ -1,4 +1,4 @@
-# Resumen para Parcial — Ingeniería de Software 2
+<img width="914" height="610" alt="image" src="https://github.com/user-attachments/assets/d22bc6d1-f6fb-456d-9e72-bc1d00a93ce2" /># Resumen para Parcial — Ingeniería de Software 2
 
 > Material de estudio consolidado a partir de las clases (PDFs SW2 #1–#9, SW7, Ing. SW2 ppt5).
 
@@ -492,41 +492,114 @@ Son enfoques secuenciales de gestión de proyectos y desarrollo de software
 - **Cascada**:
 
 • Funcionamiento: Divide el proyecto en fases secuenciales donde cada etapa debe completarse antes de iniciar la siguiente, con fuerte énfasis en la documentación y los hitos.
+
 • Fases habituales: Análisis de requisitos, diseño, implementación, verificación/pruebas y mantenimiento.
+
 • Ventajas: Estructura simple, planificación predecible y facilidad para estimar tiempos y costos iniciales.
+
 • Desventajas: Poca flexibilidad ante cambios tardíos y detección tardía de errores si las pruebas se concentran al final.
 
 - **En V**:
   
 • Parte de una base secuencial similar a la cascada, pero adopta forma de "V". El lado izquierdo define requisitos y diseños, la base corresponde a la codificación/implementación, y el lado derecho ejecuta las pruebas correspondientes a cada nivel superior.
+
 • Correspondencia de pruebas:
+
 	• Requisitos \(\leftrightarrow \) Pruebas de aceptación.
+	
 	• Diseño del sistema / arquitectura \(\leftrightarrow \) Pruebas del sistema.
+	
 	• Diseño detallado / módulos \(\leftrightarrow \) Pruebas de integración y pruebas unitarias.
+	
 • Ventajas: Integra la calidad desde etapas tempranas, aclara el alcance de las pruebas y facilita detectar inconsistencias antes de avanzar.
+
 • Desventajas: Mantiene una rigidez secuencial alta y resulta costoso si los requisitos cambian con frecuencia durante el proyecto.
 
+Mientras que el modelo en cascada suele concentrar la validación hacia el tramo final del ciclo, el modelo en V diseña las pruebas en paralelo 
 
 
 **5) Explique las generalidades de SCRUM y KANBAN Técnico. Diferencias y tendencias.**
-Scrum organiza personas, tareas, tiempos, entregas y prioridades; desarrolla WebApps de forma iterativa, con sprints que entregan incrementos funcionales, feedback continuo, prototipos para validación temprana. Kanban técnico se basa en visualizar el flujo de trabajo, limitar trabajo en progreso (WIP) y gestionar flujo continuo. Diferencias: Scrum tiene roles, sprints fijos y ceremonias; Kanban es más flexible, sin iteraciones fijas, enfocado en flujo y mejora continua. Tendencia: combinación de ambos (Scrumban) y adopción de prácticas ágiles en entornos de alta incertidumbre.
+
+Scrum organiza personas, tareas, tiempos, entregas y prioridades; desarrolla WebApps de forma iterativa, con sprints que entregan incrementos funcionales, feedback continuo, prototipos para validación temprana. Kanban técnico se basa en visualizar el flujo de trabajo, limitar trabajo en progreso (WIP) y gestionar flujo continuo. Diferencias: Scrum tiene roles, sprints fijos y ceremonias; Kanban es más flexible, sin iteraciones fijas, enfocado en flujo y mejora continua. 
+
+Tendencia: combinación de ambos (Scrumban) y adopción de prácticas ágiles en entornos de alta incertidumbre.
 
 **6) Explique los conceptos de Gestión de Tecnologías de SW, curva S y estadios. ¿Cómo esto se concatena con un proceso de evolución en el desarrollo de SW? Justifique.**
-La gestión de tecnología clasifica tecnologías en base, clave, emergente y embrionaria. La **curva S** describe su evolución: **Inicio** (rendimientos escasos, progreso lento), **Explosión** (rendimiento alto vs recursos, mejoras incrementales) y **Madurez** (rendimiento no aumenta pese a más recursos). Esto se concatena con el desarrollo de SW porque guía decisiones de inversión (Budget/Forecast), innovación (I+D) y selección de tecnologías a adoptar o reemplazar, alineando la evolución tecnológica con la evolución del producto y del negocio.
+
+Curva S: Modela el rendimiento de una tecnología en función del esfuerzo o inversión. 
+
+La gestión de tecnología clasifica tecnologías en base, clave, emergente y embrionaria. La **curva S** describe su evolución: 
+
+**Inicio** (rendimientos escasos, progreso lento)
+
+**Explosión** (rendimiento alto vs recursos, mejoras incrementales)
+
+**Madurez** (rendimiento no aumenta pese a más recursos) 
+
+**Obsolescencia**
+
+
+Concatenación: Al llegar a la meseta, el software basado en esa tecnología se vuelve obsoleto, obligando a refactorizar o migrar a una nueva Curva S tecnológica. 
+
 
 **7) Sintetizar los principios básicos que rigen el planeamiento en el desarrollo de SW.**
-Entender el alcance; involucrar participantes; reconocer iteratividad; estimar con base en lo que se sabe; considerar riesgos; ser realista; ajustar granularidad; asegurar calidad; manejar cambio; dar seguimiento frecuente y ajustar.
+
+Entendimiento del Alcance y Descomposición: Dividir un problema complejo en partes manejables mediante la estructura de descomposición de trabajo (WBS / EDT), identificando claramente entregables y límites del proyecto. 
+
+Estimación Realista y Basada en Datos: Evitar estimaciones basadas en presiones políticas o deseos, utilizando métricas históricas, puntos de historia, analogías o modelos paramétricos (ej. COCOMO). 
+
+Identificación y Gestión Proactiva de Riesgos: Anticipar los factores de incertidumbre técnica, de recursos o de negocio, priorizándolos y diseñando planes de mitigación antes de que impacten en el cronograma. 
+
+Flexibilidad y Adaptabilidad: Reconocer que los planes no son estáticos; deben ajustarse de manera iterativa frente a cambios de requerimientos o hallazgos técnicos (principio rector de la agilidad). 
+
+Definición de Hitos Claros y Medibles: Establecer puntos de control concretos basados en entregas de software funcionando y validado, en lugar de métricas basadas puramente en la cantidad de documentación redactada o horas hombre consumidas. 
+
+
 
 ### Bloque B (estilo examen)
 
 **1) Explicar las diferencias entre un Datawarehouse y Bases de Datos Transaccionales.**
-DW: toda la historia del negocio, detallado y resumido, estable, manejo global, pocos usuarios concurrentes, consultas complejas, grandes volúmenes, alta seguridad. Transaccionales: solo presente, detallado, cambios constantes, información puntual, muchos usuarios concurrentes, consultas predefinidas, pequeños volúmenes, seguridad acorde.
+
+Bases de Datos Transaccionales (OLTP): 
+
+Objetivo: Automatizar y registrar operaciones cotidianas de la operativa diaria (ej. altas, bajas, modificaciones de stock, transacciones bancarias). 
+
+Modelado: Estructuras fuertemente normalizadas para evitar redundancias y garantizar consistencia  (ACID). 
+
+Carga de trabajo: Alta concurrencia de lecturas y escrituras pequeñas y rápidas. 
+
+Data Warehouse (OLAP): 
+
+Objetivo: Consolidar información histórica de múltiples fuentes heterogéneas para el análisis estratégico y la toma de decisiones gerenciales. 
+
+Modelado: Estructuras desnormalizadas orientadas a dimensiones (esquemas en estrella o copo de nieve) para optimizar el rendimiento de las consultas complejas. 
+
+Carga de trabajo: Consultas masivas de lectura, agregaciones y escaneos de grandes volúmenes de datos, alimentados periódicamente mediante procesos ETL (Extracción, Transformación y Carga). 
+
 
 **2) Explicar el concepto de "Knowledge Discovery in Database" que forma parte del concepto de Datamining.**
-Es el proceso de descubrir conocimiento útil, válido y comprensible a partir de grandes bases de datos. DataMining busca patrones ocultos y predecibles para responder preguntas de negocio y tomar decisiones proactivas (knowledge-driven).
+
+El KDD (Knowledge Discovery in Databases) Es el proceso de descubrir conocimiento útil, válido y comprensible a partir de grandes bases de datos. 
+
+El Data Mining es sólo una etapa central dentro del macroproceso de KDD. Las fases que componen el KDD son: 
+
+Limpieza e Integración: Eliminación de ruido, tratamiento de valores faltantes y unificación de datos de diversas fuentes. 
+
+Selección y Transformación: Reducción de dimensionalidad y preparación de los datos en un formato apto para el análisis. 
+
+Minería de Datos (Data Mining): Aplicación de algoritmos computacionales y estadísticos (clasificación, clustering, reglas de asociación, árboles de decisión) para extraer patrones o modelos ocultos. 
+
+Interpretación y Evaluación: Análisis de los patrones obtenidos para transformarlos en conocimiento de negocio accionable, evaluando su validez y utilidad. 
+
 
 **3) Explicar el concepto y funcionamiento de los cubos OLAP.**
+
+
 Son bases de datos multidimensionales almacenadas físicamente como vectores multidimensionales; se accede indexando por valores de dimensiones/ejes. Consultas de selección muy rápidas (casi tiempo real), pero una vez poblado el cubo no puede cambiar su estructura sin rediseñarlo.
+
+A diferencia de las bases de datos relacionales tradicionales donde las consultas complejas requieren unir múltiples tablas en tiempo de ejecución, el cubo OLAP precalcula y preagrega las intersecciones de las dimensiones de antemano (almacenando los resultados en celdas del hipercubo).
+
+[https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
 
 **4) Explicar los conceptos relacionados a los sistemas de información GIS.**
 GIS captura, almacena, gestiona, analiza y visualiza información vinculada a ubicaciones geográficas. Usa datos georreferenciados y capas. Se integra con ERP/CRM/BI para dashboards geoespaciales. Evolucionó de herramientas stand-alone a plataformas cloud, APIs geoespaciales, microservicios y analítica avanzada.
@@ -550,7 +623,6 @@ Ver pregunta 4 del Bloque A (mismo contenido).
 
 **10) Citar los principios básicos en el Diseño de SW moderno.**
 Entender alcance; involucrar participantes; iteratividad; estimar con base en lo que se sabe; considerar riesgos; ser realista; granularidad; asegurar calidad; manejar cambio; dar seguimiento. (Además de los de construcción: elaborar software no modelos, viajar ligero, modelo más sencillo, susceptibles al cambio, propósito explícito, adaptar modelos, rendimientos decrecientes, no dogmático, confiar en instinto, retroalimentación.)
-
 **11) Citar los objetivos básicos que rigen a las "Descripciones Arquitectónicas".**
 Establecer un marco conceptual con vocabulario; proporcionar lineamientos para representar una DA; estimular mejores prácticas del diseño arquitectónico.
 
