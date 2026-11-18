@@ -486,8 +486,27 @@ Los sistemas de gestión pasaron de ser aplicaciones aisladas por área (finanza
 El diseño de WebApps incluye 6 etapas: contenido, estético, arquitectónico, interfaz, navegación y componentes. Se rige por principios: consistencia, simplicidad, retroalimentación inmediata, minimizar sobrecarga cognitiva, arquitectura en capas y desacoplamiento. La calidad abarca rendimiento, disponibilidad y seguridad; dimensiones de Garvin e ISO 9126. Las pruebas (navegación, interfaz, usabilidad, funcionales, UX) detectan problemas antes de implementar. El diseño se apoya en patrones (MVC) y métodos como MDHOO, y se integra con Scrum para desarrollo iterativo.
 
 **4) Detallar las características de los modelos de procesos en Cascada y en V. Justifique.**
-- **Cascada**: enfoque sistemático y secuencial; comienza con especificación de requerimientos y avanza por planeación, modelado, construcción y despliegue. Aplicable cuando los requerimientos están bien definidos y son estables.
-- **En V**: muestra la relación entre acciones de aseguramiento de calidad y las de comunicación/modelado/construcción. Baja por el lado izquierdo refinando requerimientos hacia representaciones técnicas; sube por el derecho ejecutando pruebas que validan cada modelo. Justificación: ambos ordenan el proceso, pero el en V enfatiza la verificación y validación en cada nivel.
+
+Son enfoques secuenciales de gestión de proyectos y desarrollo de software
+
+- **Cascada**:
+
+• Funcionamiento: Divide el proyecto en fases secuenciales donde cada etapa debe completarse antes de iniciar la siguiente, con fuerte énfasis en la documentación y los hitos.
+• Fases habituales: Análisis de requisitos, diseño, implementación, verificación/pruebas y mantenimiento.
+• Ventajas: Estructura simple, planificación predecible y facilidad para estimar tiempos y costos iniciales.
+• Desventajas: Poca flexibilidad ante cambios tardíos y detección tardía de errores si las pruebas se concentran al final.
+
+- **En V**:
+  
+• Parte de una base secuencial similar a la cascada, pero adopta forma de "V". El lado izquierdo define requisitos y diseños, la base corresponde a la codificación/implementación, y el lado derecho ejecuta las pruebas correspondientes a cada nivel superior.
+• Correspondencia de pruebas:
+	• Requisitos \(\leftrightarrow \) Pruebas de aceptación.
+	• Diseño del sistema / arquitectura \(\leftrightarrow \) Pruebas del sistema.
+	• Diseño detallado / módulos \(\leftrightarrow \) Pruebas de integración y pruebas unitarias.
+• Ventajas: Integra la calidad desde etapas tempranas, aclara el alcance de las pruebas y facilita detectar inconsistencias antes de avanzar.
+• Desventajas: Mantiene una rigidez secuencial alta y resulta costoso si los requisitos cambian con frecuencia durante el proyecto.
+
+
 
 **5) Explique las generalidades de SCRUM y KANBAN Técnico. Diferencias y tendencias.**
 Scrum organiza personas, tareas, tiempos, entregas y prioridades; desarrolla WebApps de forma iterativa, con sprints que entregan incrementos funcionales, feedback continuo, prototipos para validación temprana. Kanban técnico se basa en visualizar el flujo de trabajo, limitar trabajo en progreso (WIP) y gestionar flujo continuo. Diferencias: Scrum tiene roles, sprints fijos y ceremonias; Kanban es más flexible, sin iteraciones fijas, enfocado en flujo y mejora continua. Tendencia: combinación de ambos (Scrumban) y adopción de prácticas ágiles en entornos de alta incertidumbre.
