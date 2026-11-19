@@ -582,7 +582,7 @@ Carga de trabajo: Consultas masivas de lectura, agregaciones y escaneos de grand
 
 **2) Explicar el concepto de "Knowledge Discovery in Database" que forma parte del concepto de Datamining.**
 
-El KDD (Knowledge Discovery in Databases) Es el proceso de descubrir conocimiento útil, válido y comprensible a partir de grandes bases de datos. 
+El KDD (Knowledge Discovery in Databases) es el proceso completo y sistemático para extraer conocimiento útil, válido y comprensible a partir de grandes bases de datos.
 
 El Data Mining es sólo una etapa central dentro del macroproceso de KDD. Las fases que componen el KDD son: 
 
@@ -593,7 +593,8 @@ Selección y Transformación: Reducción de dimensionalidad y preparación de lo
 Minería de Datos (Data Mining): Aplicación de algoritmos computacionales y estadísticos (clasificación, clustering, reglas de asociación, árboles de decisión) para extraer patrones o modelos ocultos. 
 
 Interpretación y Evaluación: Análisis de los patrones obtenidos para transformarlos en conocimiento de negocio accionable, evaluando su validez y utilidad. 
-\
+
+\n
 
 **3) Explicar el concepto y funcionamiento de los cubos OLAP.**
 
@@ -604,7 +605,9 @@ A diferencia de las bases de datos relacionales tradicionales donde las consulta
 
 <img width="914" height="610" alt="image" src="https://github.com/user-attachments/assets/d22bc6d1-f6fb-456d-9e72-bc1d00a93ce2" />
 ![https://keepcoding.io/blog/que-es-olap/](https://keepcoding.io/wp-content/uploads/2022/09/cubom.jpg)
+
 \
+
 **4) Explicar los conceptos relacionados a los sistemas de información GIS.**
 
 Un GIS (Sistema de Información Geográfica) es un conjunto integrado de hardware, software y datos diseñado para capturar, almacenar, manipular, analizar y desplegar información geográficamente referenciada. Sus conceptos clave incluyen: 
@@ -629,6 +632,7 @@ Estadío de Madurez / Meseta (Slat): La tecnología alcanza los límites físico
 
 Estadío de Obsolescencia / Declive: La tecnología es superada por una innovación disruptiva (una nueva Curva S). Su rendimiento relativo se vuelve insuficiente frente a las nuevas demandas del mercado, iniciándose su reemplazo sistemático. 
 
+<img width="450" height="308" alt="image" src="https://github.com/user-attachments/assets/a89a40fe-0eee-4e3f-aec1-355f2cfd29f0" />
 
 
 **6) Explicar los modelos de Desarrollo Incremental y Fundamental del I+D.**
@@ -668,13 +672,20 @@ VNA: valor neto actual.  si el VAN > 0, el proyecto es viable. Refleja el costo 
 
 <img width="467" height="95" alt="image" src="https://github.com/user-attachments/assets/0c81d3ad-6d26-4717-86ad-6b7a21fa20b2" />
 
+.
 
 **8) Explicar los modelos de procesos en "Cascada" y en "V".**
 Ver pregunta 4 del Bloque A (mismo contenido).
 
+.
+
 **9) Explicar los modelos de procesos en "Evolutivo" y en "Espiral".**
 
-- **Evolutivo**: Modelo Evolutivo: Es un modelo iterativo que reconoce que los requerimientos del software cambian a lo largo del tiempo y que rara vez se cuenta con una especificación inicial completa y cerrada. Permite desarrollar versiones cada vez más completas (incrementos) mediante ciclos iterativos. 
+- **Evolutivo**:El modelo evolutivo se caracteriza por ser iterativo y permitir que el software crezca y cambie a medida que se comprenden mejor los requisitos.
+
+• Funcionamiento: Se desarrolla una versión inicial del sistema, se muestra al usuario y se refina en ciclos sucesivos según sus comentarios o nuevos requerimientos.
+
+• Cuándo usarlo: Es útil cuando los requisitos iniciales son difusos, cambian con frecuencia o el cliente necesita probar versiones tempranas para definir qué desea.
   
 - **Espiral (Boehm)**: Es un modelo de procesos orientado al riesgo, propuesto por Barry Boehm, que combina la naturaleza iterativa del prototipado con los aspectos controlados y sistemáticos del modelo en cascada. El desarrollo se representa como una espiral donde cada bucle o iteración representa una fase del proyecto, estructurada en cuatro sectores principales: 
 
@@ -686,7 +697,11 @@ Desarrollo y validación (construcción del incremento del producto mediante ing
 
 Planificación de la siguiente fase. 
 
+• Funcionamiento: El proceso avanza en espiral a través de ciclos o iteraciones. En cada vuelta se refina el grado de definición del sistema y se entrega una versión más completa.
 
+• Cuándo usarlo: Es ideal para sistemas grandes, complejos o críticos donde los errores o fallos son costosos y requieren evaluación continua de riesgos.
+
+.
 
 **10) Citar los principios básicos en el Diseño de SW moderno.**
 
@@ -703,6 +718,8 @@ Los principios fundamentales que guían un diseño de software robusto, mantenib
 5- *Reutilización*: Diseñar componentes orientados a ser reutilizados en diferentes contextos o sistemas, reduciendo redundancias. 
 
 6- *Simplicidad*: Evitar la sobrediseño; mantener la arquitectura y el código tan simples como sea funcionalmente posible. 
+
+.
 
 **11) Citar los objetivos básicos que rigen a las "Descripciones Arquitectónicas".**
 
@@ -740,20 +757,21 @@ Una descripción arquitectónica (AD) es una representación estructurada de un 
 - 
 - **Diseño Basado en Patroness**: Se fundamenta en la reutilización de soluciones comprobadas y estandarizadas (Design Patterns, patrones arquitectónicos, patrones de webapps) para resolver problemas recurrentes en el diseño de software. En lugar de diseñar desde cero, el ingeniero identifica el contexto del problema y aplica soluciones abstractas probadas (ej. Singleton, MVC, Factory, Observer), acelerando el desarrollo y mejorando la calidad estructural y la legibilidad del sistema. 
 
+.
 
-**14) Citar los principios fundamentales que rigen el diseño de WEBApps.**
+**14) Citar los 5 principios fundamentales que rigen el diseño de WEBApps.**
 
-Simplicidad: Minimizar la sobrecarga visual y cognitiva del usuario, priorizando la claridad del contenido y la navegación intuitiva. 
+a) Simplicidad: Minimizar la sobrecarga visual y cognitiva del usuario, priorizando la claridad del contenido y la navegación intuitiva. 
 
-Consistencia: Mantener patrones uniformes en la interfaz, tipografías, flujos de navegación y respuestas en todo el sitio o aplicación. 
+b) Consistencia: Mantener patrones uniformes en la interfaz, tipografías, flujos de navegación y respuestas en todo el sitio o aplicación. 
 
-Movilidad y Adaptabilidad (Responsive Design): Asegurar que la WebApp se adapte fluidamente a diferentes tamaños de pantalla, resoluciones y dispositivos (móviles, tablets, escritorios). 
+c) Movilidad y Adaptabilidad (Responsive Design): Asegurar que la WebApp se adapte fluidamente a diferentes tamaños de pantalla, resoluciones y dispositivos (móviles, tablets, escritorios). 
 
-Robustez y Seguridad : Proteger la aplicación frente a vulnerabilidades web comunes (como inyecciones, ataques XSS, validaciones de formularios robustas) y garantizar alta disponibilidad. 
+d) Robustez y Seguridad : Proteger la aplicación frente a vulnerabilidades web comunes (como inyecciones, ataques XSS, validaciones de formularios robustas) y garantizar alta disponibilidad. 
 
-Identidad y Estética (Identity): Reflejar fielmente la identidad visual y la propuesta de valor de la organización o producto a través del diseño. 
+e) Identidad y Estética (Identity): Reflejar fielmente la identidad visual y la propuesta de valor de la organización o producto a través del diseño. 
 
-
+.
 
 **15) Explicar las "Dimensiones de Calidad" en el marco de los procesos de Calidad asociados al SW.**
 
