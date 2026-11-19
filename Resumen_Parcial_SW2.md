@@ -692,43 +692,47 @@ Planificación de la siguiente fase.
 
 Los principios fundamentales que guían un diseño de software robusto, mantenible y escalable son: 
 
-*Modularidad*: Descomponer el sistema en partes discretas (módulos) con alta cohesión interna y bajo acoplamiento externo. 
+1- *Modularidad*: Descomponer el sistema en partes discretas (módulos) con alta cohesión interna y bajo acoplamiento externo. 
 
-*Abstracción y Ocultamiento de Información*: Permitir trabajar con conceptos complejos ocultando los detalles internos de implementación mediante interfaces claras. 
+2- *Abstracción y Ocultamiento de Información*: Permitir trabajar con conceptos complejos ocultando los detalles internos de implementación mediante interfaces claras. 
 
-*Separación de Intereses (Separation of Concerns)*: Dividir un programa en secciones distintas donde cada una aborda un concepto o área de negocio separada. 
+3- *Separación de Intereses (Separation of Concerns)*: Dividir un programa en secciones distintas donde cada una aborda un concepto o área de negocio separada. 
 
-*Independencia Funcional*: Maximizar la cohesión de cada módulo y minimizar las interdependencias entre ellos. 
+4- *Independencia Funcional*: Maximizar la cohesión de cada módulo y minimizar las interdependencias entre ellos. 
 
-*Reutilización*: Diseñar componentes orientados a ser reutilizados en diferentes contextos o sistemas, reduciendo redundancias. 
+5- *Reutilización*: Diseñar componentes orientados a ser reutilizados en diferentes contextos o sistemas, reduciendo redundancias. 
 
-*Simplicidad*: Evitar la sobrediseño; mantener la arquitectura y el código tan simples como sea funcionalmente posible. 
+6- *Simplicidad*: Evitar la sobrediseño; mantener la arquitectura y el código tan simples como sea funcionalmente posible. 
 
 **11) Citar los objetivos básicos que rigen a las "Descripciones Arquitectónicas".**
 
 Una descripción arquitectónica (AD) es una representación estructurada de un sistema de software que cumple con los siguientes objetivos básicos: 
 
-Facilitar la comprensión de la estructura general del sistema y de cómo interactúan sus componentes de alto nivel. 
+1- Facilitar la comprensión de la estructura general del sistema y de cómo interactúan sus componentes de alto nivel. 
 
-Servir como medio de comunicación efectivo entre todos los interesados (stakeholders) 
+2- Servir como medio de comunicación efectivo entre todos los interesados (stakeholders) 
 
-Permitir la evaluación y análisis temprano de las cualidades del sistema (escalabilidad, rendimiento, seguridad, modificabilidad)
+3- Permitir la evaluación y análisis temprano de las cualidades del sistema (escalabilidad, rendimiento, seguridad, modificabilidad)
 
-Guiar la construcción y el despliegue del software.
+4- Guiar la construcción y el despliegue del software.
 
 **12) Citar al menos 5 géneros arquitectónicos dentro del marco de las Descripciones Arquitectónicas.**
 
+.
 
-Arquitectura por Capas (Layers): Organización jerárquica en bandas horizontales (Presentación, Negocio, Persistencia). 
+1 -Arquitectura por Capas (Layers): Organización jerárquica en bandas horizontales (Presentación, Negocio, Persistencia). 
 
-Arquitectura Orientada a Servicios (SOA) / Microservicios: Sistemas descompuestos en servicios independientes que se comunican mediante redes y protocolos estándar. 
+2- Arquitectura Orientada a Servicios (SOA) / Microservicios: Sistemas descompuestos en servicios independientes que se comunican mediante redes y protocolos estándar. 
 
-Arquitectura Basada en Eventos (Event-Driven): Estructura basada en la producción, detección y consumo asíncrono de eventos a través de brokers o colas de mensajes. 
+3- Arquitectura Basada en Eventos (Event-Driven): Estructura basada en la producción, detección y consumo asíncrono de eventos a través de brokers o colas de mensajes. 
 
-Arquitectura de Tuberías y Filtros (Pipes and Filters): Componentes independientes (filtros) que transforman flujos de datos recibidos a través de canales secuenciales (tuberías). 
+4- Arquitectura de Tuberías y Filtros (Pipes and Filters): Componentes independientes (filtros) que transforman flujos de datos recibidos a través de canales secuenciales (tuberías). 
 
-Arquitectura Cliente-Servidor: Separación entre nodos que proveen recursos o servicios (servidores) y aquellos que los solicitan (clientes). 
+5- Arquitectura Cliente-Servidor: Separación entre nodos que proveen recursos o servicios (servidores) y aquellos que los solicitan (clientes). 
 
+.
+
+.
 
 **13) Explicar el Diseño basado en Patrones vs. el Diseño Basado en Estructuras.**
 
