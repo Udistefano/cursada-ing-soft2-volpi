@@ -474,16 +474,43 @@ flowchart LR
 ### Bloque A
 
 **1) ¿Cómo se fue dando la evolución de los sistemas de gestión hasta llegar a los dashboards? Justifique.**
-Los sistemas de gestión pasaron de ser aplicaciones aisladas por área (finanzas, ventas, RRHH) a sistemas integrados (ERP) que concentran información de todas las áreas funcionales. Luego se incorporó la generación de **PBI (indicadores clave de desempeño)** a partir de los datos operativos, consolidados en **Datawarehouses** y procesados por herramientas de **BI**. Finalmente surgieron los **dashboards ejecutivos**, que presentan la información de manera visual y sintética (gráficos, tablas dinámicas, alertas) para decisiones ágiles. Flujo: operaciones transaccionales → consolidación en DW → BI → indicadores y dashboards.
+Los sistemas de gestión pasaron de ser aplicaciones aisladas por área (finanzas, ventas, RRHH) a sistemas integrados (ERP) que concentran información de todas las áreas funcionales. Luego se incorporó la generación de **PBI (indicadores clave de desempeño)** a partir de los datos operativos, consolidados en **Datawarehouses** y procesados por herramientas de **BI**. Finalmente surgieron los **dashboards ejecutivos**, que presentan la información de manera visual y sintética (gráficos, tablas dinámicas, alertas) para decisiones ágiles. 
+
+Flujo: operaciones transaccionales → consolidación en DW → BI → indicadores y dashboards.
+
+<img width="1012" height="699" alt="image" src="https://github.com/user-attachments/assets/84688db7-6694-45e5-9b2b-1e48977b4f95" />
+
+.
 
 **2) Explique las taxonomías arquitectónicas en el desarrollo de SW.**
+
 - **Centradas en datos**: repositorio central (archivo/BD) al que acceden componentes que actualizan/modifican datos; variante "pizarrón" que notifica cambios.
+  
 - **Flujo de datos**: datos de entrada se transforman en salida mediante componentes; patrón tubo y filtro (filtros independientes conectados por tubos) o lote secuencial.
+  
 - **Orientadas a objetos**: componentes incluyen datos + operaciones; comunicación por mensajes.
+  
 - **En capas**: capas con operaciones que se aproximan progresivamente a instrucciones de máquina.
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/6f1a2262-3a3e-4174-ab08-7863d8325716" />
+
+
+.
+
 **3) Desarrolle el concepto de Des. Aplicaciones WEB, Calidad, Pruebas, Planificación, etc.**
-El diseño de WebApps incluye 6 etapas: contenido, estético, arquitectónico, interfaz, navegación y componentes. Se rige por principios: consistencia, simplicidad, retroalimentación inmediata, minimizar sobrecarga cognitiva, arquitectura en capas y desacoplamiento. La calidad abarca rendimiento, disponibilidad y seguridad; dimensiones de Garvin e ISO 9126. Las pruebas (navegación, interfaz, usabilidad, funcionales, UX) detectan problemas antes de implementar. El diseño se apoya en patrones (MVC) y métodos como MDHOO, y se integra con Scrum para desarrollo iterativo.
+
+Desarrollo de Aplicaciones WEB (WebApps): Involucra el diseño y construcción de sistemas interactivos que combinan contenido hipermedial, lógica de negocio del lado del cliente (SPA, frameworks modernos) y del servidor (APIs RESTful, microservicios backend). Requiere modelar tanto la arquitectura técnica como el diseño estético e interactivo. 
+
+- Calidad: Involucra factores críticos como la usabilidad, fiabilidad, rendimiento, seguridad y mantenibilidad. La calidad no se prueba al final, sino que se construye de manera iterativa mediante el Aseguramiento de la Calidad del Software (SQA). 
+
+- Pruebas (Testing): Se estructuran desde las bases con pruebas unitarias (componentes aislados), pasando por pruebas de integración (interacción entre módulos), hasta pruebas de sistema y validación (cumplimiento de requerimientos funcionales y no funcionales del cliente). En entornos web, se incorporan pruebas de carga, estrés, seguridad (OWASP Top 10) y pruebas end-to-end (E2E). 
+
+- Planificación: Proceso fundamental de gestión que estimar tiempos, costos, asignación de recursos y mitigación de riesgos. Define la hoja de ruta del proyecto mediante hitos, dependencias técnicas y la selección del ciclo de vida adecuado (ágil o predictivo) para garantizar entregas incrementales de valor bajo restricciones presupuestarias y temporales. 
+
+<img width="1067" height="655" alt="image" src="https://github.com/user-attachments/assets/d836643f-d153-475e-8a60-1ead8efe43fb" />
+
+
+.
 
 **4) Detallar las características de los modelos de procesos en Cascada y en V. Justifique.**
 
@@ -517,12 +544,20 @@ Son enfoques secuenciales de gestión de proyectos y desarrollo de software
 
 Mientras que el modelo en cascada suele concentrar la validación hacia el tramo final del ciclo, el modelo en V diseña las pruebas en paralelo 
 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/1a59a005-da71-4280-9507-4d913796ad90" />
+
+.
 
 **5) Explique las generalidades de SCRUM y KANBAN Técnico. Diferencias y tendencias.**
 
 Scrum organiza personas, tareas, tiempos, entregas y prioridades; desarrolla WebApps de forma iterativa, con sprints que entregan incrementos funcionales, feedback continuo, prototipos para validación temprana. Kanban técnico se basa en visualizar el flujo de trabajo, limitar trabajo en progreso (WIP) y gestionar flujo continuo. Diferencias: Scrum tiene roles, sprints fijos y ceremonias; Kanban es más flexible, sin iteraciones fijas, enfocado en flujo y mejora continua. 
 
 Tendencia: combinación de ambos (Scrumban) y adopción de prácticas ágiles en entornos de alta incertidumbre.
+
+
+<img width="1024" height="452" alt="image" src="https://github.com/user-attachments/assets/05845ef6-fcac-480f-ac7b-c9b8461a0791" />
+
+.
 
 **6) Explique los conceptos de Gestión de Tecnologías de SW, curva S y estadios. ¿Cómo esto se concatena con un proceso de evolución en el desarrollo de SW? Justifique.**
 
@@ -541,6 +576,9 @@ La gestión de tecnología clasifica tecnologías en base, clave, emergente y em
 
 Concatenación: Al llegar a la meseta, el software basado en esa tecnología se vuelve obsoleto, obligando a refactorizar o migrar a una nueva Curva S tecnológica. 
 
+<img width="450" height="308" alt="image" src="https://github.com/user-attachments/assets/a89a40fe-0eee-4e3f-aec1-355f2cfd29f0" />
+
+.
 
 **7) Sintetizar los principios básicos que rigen el planeamiento en el desarrollo de SW.**
 
@@ -554,7 +592,9 @@ Flexibilidad y Adaptabilidad: Reconocer que los planes no son estáticos; deben 
 
 Definición de Hitos Claros y Medibles: Establecer puntos de control concretos basados en entregas de software funcionando y validado, en lugar de métricas basadas puramente en la cantidad de documentación redactada o horas hombre consumidas. 
 
+<img width="742" height="342" alt="image" src="https://github.com/user-attachments/assets/ef1fe012-3747-4ef9-87bf-d64d74092fae" />
 
+.
 
 ### Bloque B (estilo examen)
 
