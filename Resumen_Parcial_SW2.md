@@ -819,11 +819,46 @@ Las 8 dimensiones de Garvin:
 
 desempeño, características, confiabilidad, conformidad, durabilidad, servicio, estética y percepción. Complementadas por ISO 9126 (funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad). La calidad tiene costo (prevención, evaluación, falla).
 
+.
+
 **16) Explicar los conceptos de Prueba de Unidad y Pruebas de Integración en el marco de los procesos de Prueba a los que se somete los desarrollos de SW.**
 
 - **Pruebas de Unidad (Unit Testing)**: enfoca en cada componente individual (interfaz, datos locales, rutas independientes, condiciones de frontera, manejo de errores); usa controladores y representantes (stubs).
+
 - **Prueba de integración**: Se realizan una vez superadas las pruebas unitarias. Su objetivo es verificar la correcta interacción y comunicación entre múltiples componentes o módulos integrados. Buscan detectar defectos derivados de interfaces mal acopladas
   
+.
+
+.
+
+DATA CENTERS: 
+
+
+1. Definir qué es un Data Center y sus Tiers 
+
+Respuesta: Un Data Center (Centro de Datos) es una sala física, edificio o instalación dedicada a albergar infraestructura informática para crear, ejecutar y entregar aplicaciones y servicios, además de almacenar y gestionar los datos asociados a estos. 
+
+El Uptime Institute clasifica los Data Centers en cuatro "Tiers" (niveles) según su disponibilidad, diseño y tolerancia a fallas: 
+
+Tier I (Capacidades Básicas): Carece de redundancia. Ante cualquier mantenimiento o reparación, se requiere la parada total del sitio. Las fallas en la energía afectan los servicios. 
+
+Tier II (Componentes Redundantes): Posee componentes redundantes (como UPS N+1 y generador), pero mantiene una única vía de distribución eléctrica. Sigue requiriendo paradas del sitio para mantenimientos o ante eventos no planeados. 
+
+Tier III (Mantenimiento Simultáneo): Cuenta con vías de distribución redundantes (una activa y alternas pasivas). Permite que cualquier componente (energía, rutas) sea removido para mantenimiento sin generar interrupciones en la operación del sistema. 
+
+Tier IV (Tolerante a Fallas): Es el nivel máximo. Una interrupción o falla individual en un equipo o ruta no afecta en absoluto las operaciones. 
+
+.
+
+**Modelo Spine & Leaf:** 
+
+Leaf (Hoja): Donde se conectan los servidores. 
+
+Spine (Espina): El núcleo de la red que interconecta todos los switches Leaf. 
+
+Ventaja: El tráfico viaja "Este-Oeste" (entre servidores internos) con una latencia previsible y constante. Es el diseño estándar para Cloud y grandes empresas. 
+
+<img width="830" height="447" alt="image" src="https://github.com/user-attachments/assets/35b557fd-891a-4859-8c3b-10321cd4d5c9" />
 
 
 ---
